@@ -218,7 +218,7 @@ public class NMessengerViewController: UIViewController, UITextViewDelegate, NMe
      Called when adding a text to the meesenger. Override this function to add your message to the VC
      */
     public func sendText(text: String, isIncomingMessage:Bool) -> GeneralMessengerCell {
-        return self.postText(text,isIncomingMessage: isIncomingMessage)
+        return self.postText(text,isIncomingMessage: isIncomingMessage) // Something something dark side
     }
     /**
      Called  when adding an image to the meesenger. Override this function to add your message to the VC
